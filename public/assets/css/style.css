@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   border: solid;
   width: 100px;
-  border-color: white;
+  border-color: yellow;
 }
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 30px;
@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin: 140px 0 0 160px;
 }
 #hero h1 {
   margin: 0 0 10px 0;
