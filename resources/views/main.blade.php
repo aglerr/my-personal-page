@@ -31,6 +31,11 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Rubik Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,70 +46,12 @@
     <!-- ======= Header ======= -->
     @include('partials.sidebar')
 
-    {{-- <!-- ======= Hero Section ======= -->
+    <!-- ======= Hero Section ======= -->
     @include('partials.hero')
 
     <main id="main">
 
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>About</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-right">
-                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                        <h3>UI/UX Designer &amp; Web Developer.</h3>
-                        <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
-                        </p>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
-                                            1995</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                            7890</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
-                                            USA</span></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong>
-                                        <span>email@example.com</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>
-                            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
-                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
-                            itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                            culpa magni laudantium dolores.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End About Section -->
+        @include('partials.about')
 
         <!-- ======= Facts Section ======= -->
         <section id="facts" class="facts">
@@ -346,8 +293,7 @@
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i
-                                        class="bx bx-link"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -358,8 +304,7 @@
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i
-                                        class="bx bx-link"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -370,8 +315,7 @@
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i
-                                        class="bx bx-link"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -678,11 +622,7 @@
 
     </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
 
-        </div>
-    </footer><!-- End  Footer --> --}}
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
