@@ -9,7 +9,8 @@
             <ul>
                 <li>
                     <a href="#hero" class="nav-link scrollto active">
-                        <i class="bx bx-home"></i>
+
+                        <i class="bx bx-home" ></i>
                     </a>
                 </li>
 

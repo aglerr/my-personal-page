@@ -7,6 +7,8 @@
             I develop a Minecraft plugin and soon to be<br>
             a full-stack and android developer.<br>
         </span>
-        <a class="btn btn-primary" href="#contact" role="button">Contact Me</a>
+        
+        <a class="btn btn-primary" href="#contact">Contact Me</a>
+
     </div>
 </section>

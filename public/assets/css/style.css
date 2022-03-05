@@ -345,7 +345,7 @@ section {
     font-weight: 300;
 }
 
-.about .content h3 {
+.about .content h4 {
     font-weight: 700;
     font-size: 26px;
     color: #ffffff;
@@ -364,6 +364,7 @@ section {
 
 .about .content ul strong {
     margin-right: 10px;
+    font-weight: bold;
 }
 
 .about .content ul i {
@@ -377,60 +378,25 @@ section {
     margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts {
-    padding-bottom: 30px;
-}
-
-.facts .count-box {
-    padding: 30px;
-    width: 100%;
-}
-
-.facts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: #149ddd;
-    float: left;
-    line-height: 0;
-}
-
-.facts .count-box span {
-    font-size: 48px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #050d18;
-    margin-left: 60px;
-}
-
-.facts .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #122f57;
-}
-
-.facts .count-box a {
-    font-weight: 600;
-    display: block;
+.about a {
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    border-radius: 4px;
     margin-top: 20px;
-    color: #122f57;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
-}
-
-.facts .count-box a:hover {
-    color: #1f5297;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+.skills {
+    background: #0E0E17;
+    color: #fff;
+    font-family: "Rubik", monospace;
+    font-weight: 300;
+}
+
 .skills .progress {
     height: 60px;
     display: block;
@@ -443,9 +409,6 @@ section {
     margin: 0 0 6px 0;
     text-transform: uppercase;
     display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
 }
 
 .skills .progress .skill .val {
@@ -468,62 +431,54 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #050d18;
+.resume {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    font-family: "Rubik", monospace;
+    font-weight: 300;
 }
 
-.resume .resume-item {
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid #1f5297;
-    position: relative;
+.resume .card {
+    background-color: #0C0C14;
+    min-height: 350px;
+    border-radius: 20px;
 }
 
-.resume .resume-item h4 {
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
-    margin-bottom: 10px;
+.resume .card .card-body {
+    margin-top: 45px;
+    margin-left: 300px;
 }
 
-.resume .resume-item h5 {
-    font-size: 16px;
-    background: #e4edf9;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
+.resume .card .card-body h5 {
+    font-weight: bold;
+    font-size: 25px;
 }
 
-.resume .resume-item ul {
-    padding-left: 20px;
+.resume .card .card-body span {
+    font-weight: normal;
+    font-size: 15px;
+    color: #818181;
 }
 
-.resume .resume-item ul li {
-    padding-bottom: 10px;
+.resume .card .card-body strong {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-.resume .resume-item:last-child {
-    padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-    content: "";
+.resume img {
     position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #fff;
-    border: 2px solid #1f5297;
+}
+
+.carousel-control-prev-icon {
+    margin-top: 275px;
+    margin-left: -120px;
+}
+
+.carousel-control-next-icon {
+    margin-top: 275px;
+    margin-right: -120px;
 }
 
 /*--------------------------------------------------------------
