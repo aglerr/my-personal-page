@@ -77,8 +77,8 @@ h6 {
     transition: all ease-in-out 0.5s;
     z-index: 996;
     transition: all 0.5s;
-    background: #0C0C14;
-    border-right: 1px solid #27272b;
+    background: #040122;
+    border-right: 1px solid #2d2d31;
 }
 
 #header .profile img {
@@ -145,7 +145,7 @@ h6 {
 .nav-menu ul li:nth-child(4),
 .nav-menu ul li:nth-child(5),
 .nav-menu ul li:nth-child(6) {
-    border-top: 1px solid #27272b;
+    border-top: 1px solid #2d2d31;
 }
 
 .nav-menu a,
@@ -339,7 +339,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-    background: #232324;
+    background: #1f1e1e;
     color: #fff;
     font-family: "Rubik", monospace;
     font-weight: 300;
@@ -391,7 +391,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills {
-    background: #0E0E17;
+    background: #1f1e1e;
     color: #fff;
     font-family: "Rubik", monospace;
     font-weight: 300;
@@ -441,7 +441,7 @@ section {
 }
 
 .resume .card {
-    background-color: #0C0C14;
+    background-color: #1f1e1e;
     min-height: 350px;
     border-radius: 20px;
 }
@@ -484,6 +484,14 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+    width: 100%;
+    background: #1f1e1e;
+    color: #fff;
+    font-family: "Rubik", monospace;
+    font-weight: 300;
+}
+
 .portfolio .portfolio-item {
     margin-bottom: 30px;
 }
@@ -650,6 +658,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+    width: 100%;
+    height: 110vh;
+    background: #000;
+    color: #fff;
+    font-family: "Rubik", monospace;
+    font-weight: 300;
+}
+
 .services .icon-box {
     margin-bottom: 20px;
 }
@@ -703,118 +720,31 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-    overflow: hidden;
-}
-
-.testimonials .testimonial-item {
-    box-sizing: content-box;
-    text-align: center;
-    min-height: 320px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-    width: 90px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 0;
-    color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-    font-size: 14px;
-    color: #999;
-    margin: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-    color: #c3e8fa;
-    font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-    display: inline-block;
-    left: -5px;
-    position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-    display: inline-block;
-    right: -5px;
-    position: relative;
-    top: 10px;
-}
-
-.testimonials .testimonial-item p {
-    font-style: italic;
-    margin: 0 15px 15px 15px;
-    padding: 20px;
-    background: #fff;
-    position: relative;
-    margin-bottom: 35px;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials .testimonial-item p::after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 20px solid #fff;
-    border-right: 20px solid transparent;
-    border-left: 20px solid transparent;
-    position: absolute;
-    bottom: -20px;
-    left: calc(50% - 20px);
-}
-
-.testimonials .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid #149ddd;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #149ddd;
-}
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
     padding-bottom: 130px;
+    width: 100%;
+    background: #1f1e1e;
+    color: #fff;
+    font-family: "Rubik", monospace;
+    font-weight: 300;
 }
 
 .contact .info {
     padding: 30px;
-    background: #fff;
+    background: #000;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .info i {
     font-size: 20px;
-    color: #149ddd;
+    color: rgb(0, 0, 0);
     float: left;
     width: 44px;
     height: 44px;
-    background: #dff3fc;
+    background: #aad5e9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -827,14 +757,14 @@ section {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #050d18;
+    color: #fff;
 }
 
 .contact .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #173b6c;
+    color: #fff;
 }
 
 .contact .info .email p {
@@ -866,8 +796,7 @@ section {
 }
 
 .contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .discord:hover i {
     background: #149ddd;
     color: #fff;
 }
@@ -875,7 +804,7 @@ section {
 .contact .php-email-form {
     width: 100%;
     padding: 30px;
-    background: #fff;
+    background: #000;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 

@@ -9,6 +9,5 @@
         </span>
         
         <a class="btn btn-primary" href="#contact">Contact Me</a>
-
     </div>
 </section>
