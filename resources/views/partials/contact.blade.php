@@ -11,7 +11,7 @@
             <div class="col-lg-5 d-flex align-items-stretch">
                 <div class="info">
 
-                    <div class="email">
+                    <div class="cinfo">
                         <i class="bi bi-envelope"></i>
                         <h4>Emails:</h4>
                         <p>
@@ -20,12 +20,18 @@
                         </p>
                     </div>
 
-                    <div class="discord">
+                    <div class="cinfo">
                         <i class="fab fa-discord"></i>
                         <h4>Discord:</h4>
                         <p>
                             aglerr#9849
                         </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub:</h4>
+                        <a href="https://github.com/aglerr" target="_blank"><p>https://github.com/aglerr</p></a>
                     </div>
 
                 </div>
