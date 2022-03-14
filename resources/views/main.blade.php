@@ -6,9 +6,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Title and Favicon -->
-    {{-- <title>md &rsaquo; Home Page</title> --}}
-    <title>Website Under Construction</title>
-    <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}">
+    <title>md &rsaquo; Home Page</title>
+    <link rel="icon" href="{{ asset('assets/img/favicon.png') }}">
 
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -57,7 +56,7 @@
         @include('partials.about')
         @include('partials.skills')
         @include('partials.resume')
-        @include('partials.portfolio.portfolio')
+        {{-- @include('partials.portfolio.portfolio') --}}
         @include('partials.projects')
         @include('partials.contact')
 

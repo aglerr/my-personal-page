@@ -1,7 +1,7 @@
 @extends('partials.portfolio.template')
 
 
-@section('title', 'Cosmetics Details')
+@section('title', 'md › Portfolio Details')
 
 @section('content')
 

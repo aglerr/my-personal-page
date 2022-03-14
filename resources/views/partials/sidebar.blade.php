@@ -2,7 +2,7 @@
     <div class="d-flex flex-column">
 
         <div class="profile">
-            <img src="assets/img/logo-white-jitter.gif">
+            <img src="assets/img/black-jitter.gif">
         </div>
 
         <nav id="navbar" class="nav-menu navbar">
@@ -26,11 +26,11 @@
                     </a>
                 </li>
 
-                <li>
+                {{-- <li>
                     <a href="#portfolio" class="nav-link scrollto">
                         <i class="bx bx-book-content"></i>
                     </a>
-                </li>
+                </li> --}}
 
                 <li>
                     <a href="#services" class="nav-link scrollto">

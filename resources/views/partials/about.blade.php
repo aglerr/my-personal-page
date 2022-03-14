@@ -41,7 +41,7 @@
                     I have several projects that are currently growing and developing, want to know what 
                     are my projects? Click the button below!
                     <br>
-                    <a class="btn btn-primary" href="#contact">Projects</a>
+                    <a class="btn btn-primary" href="#services">Projects</a>
                 </p>
             </div>
         </div>
