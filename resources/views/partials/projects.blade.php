@@ -22,30 +22,6 @@
                 </div>
             </div>
 
-            <div class="card text-center mx-auto" style="width: 18rem; background: #1f1e1e;">
-                <img class="card-img-top" src="{{ asset('assets/img/coming-soon.png') }}" alt="Dream Light Logo"
-                    style="width: 200px; height: 200px; display: block; margin: 0 auto;">
-                <div class="card-body">
-                    <h5 class="card-title" style="color: white"></h5>
-                    <p class="card-text" style="color: white"></p>
-                </div>
-                <div class="card-body">
-                    <a href="#services" class="card-link"></a>
-                </div>
-            </div>
-
-            <div class="card text-center mx-auto" style="width: 18rem; background: #1f1e1e;">
-                <img class="card-img-top" src="{{ asset('assets/img/coming-soon.png') }}" alt="Dream Light Logo"
-                    style="width: 200px; height: 200px; display: block; margin: 0 auto;">
-                <div class="card-body">
-                    <h5 class="card-title" style="color: white"></h5>
-                    <p class="card-text" style="color: white"></p>
-                </div>
-                <div class="card-body">
-                    <a href="#services" class="card-link"></a>
-                </div>
-            </div>
-
         </div>
 
 
