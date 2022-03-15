@@ -39,32 +39,36 @@
             </div>
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                <form action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
-                    <input type="hidden" name="apikey" value="f3cce484-61e4-4b15-9072-3acb48e21271">
+                <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
+
+                    <input type="hidden" name="access_key" value="f3cce484-61e4-4b15-9072-3acb48e21271">
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="name">Your Name</label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name" id="name" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="Email">Your Email</label>
-                            <input type="email" class="form-control" name="Email" placeholder="Your Email (Must be valid)" id="email" required>
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Your Email (Must be valid)" id="email" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="Same">Subject</label>
-                        <input type="text" class="form-control" name="Subject" placeholder="Subject" id="subject" required>
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" id="subject" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
                         <textarea class="form-control" name="message" placeholder="Your Message..." rows="10" required></textarea>
                     </div>
+
                     <div class="my-3">
                         <div class="loading">Loading</div>
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    
                     <div class="text-center"><button type="submit">Send Message</button></div>
                 </form>
             </div>

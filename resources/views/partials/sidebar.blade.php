@@ -2,7 +2,7 @@
     <div class="d-flex flex-column">
 
         <div class="profile">
-            <img src="assets/img/black-jitter.gif">
+            <img src="assets/img/white-transparent.png">
         </div>
 
         <nav id="navbar" class="nav-menu navbar">

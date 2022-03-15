@@ -59,6 +59,7 @@
         {{-- @include('partials.portfolio.portfolio') --}}
         @include('partials.projects')
         @include('partials.contact')
+        @include('partials.footer')
 
     </main><!-- End #main -->
 
