@@ -21,7 +21,7 @@
                 </li>
 
                 <li>
-                    <a href="#resume" class="nav-link scrollto">
+                    <a href="#experiences" class="nav-link scrollto">
                         <i class="bx bx-file-blank"></i>
                     </a>
                 </li>
