@@ -20,3 +20,7 @@ Route::get('/', function () {
 
 // Portfolio Details
 Route::get('/portfolio/{name}', [PortfolioController::class, 'index'])->name('portfolio');
+
+Route::get('/test', function () {
+    return view('test');
+});
