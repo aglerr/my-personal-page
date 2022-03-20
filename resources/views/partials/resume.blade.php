@@ -1,13 +1,50 @@
 <!-- ======= Resume Section ======= -->
-<section id="resume" class="resume">
+<section id="experiences" class="experiences">
     <div class="container">
 
         <div class="section-title">
-            <h2>Experience</h2>
+            <h2>Experiences</h2>
+        </div>
+
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+
+                        <img src="assets/img/luckynetwork.png" style="">
+
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">May 2019 - 2021</span>
+                        <div class="blog-slider__title">Developer at Lucky Network</div>
+                        <div class="blog-slider__text">Lucky Network is arguably the biggest Minecraft server in
+                            Indonesia and sooner or later will
+                            become the biggest server in Southeast Asia region with 1.000+ average concurrent
+                            players that are currently playing right now.</div>
+                        <a href="https://www.luckynetwork.net/" target="_blank" class="blog-slider__button">MORE INFO</a>
+                    </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+
+                        <img src="assets/img/senior-team.png">
+
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Jan 2021 - Present</span>
+                        <div class="blog-slider__title">Senior Team</div>
+                        <div class="blog-slider__text">Senior Team is known for being the top service provider clients
+                            know and trust for a wide range of minecraft related services.</div>
+                        <a href="https://www.senior-studios.com/" target="_blank" class="blog-slider__button">MORE INFO</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blog-slider__pagination"></div>
         </div>
 
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        {{-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                     class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -71,7 +108,7 @@
                   </button>
             </div>
 
-        </div>
+        </div> --}}
 
     </div>
 </section><!-- End Resume Section -->
