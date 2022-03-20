@@ -31,7 +31,7 @@
                     <div class="cinfo">
                         <i class="fab fa-github"></i>
                         <h4>GitHub:</h4>
-                        <a href="https://github.com/aglerr" target="_blank"><p>https://github.com/aglerr</p></a>
+                        <a href="https://github.com/mdaffa48" target="_blank"><p>https://github.com/mdaffa48</p></a>
                     </div>
 
                 </div>
@@ -69,7 +69,7 @@
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
                     
-                    <div class="text-center"><button type="submit">Send Message</button></div>
+                    <div class="text-center"><button type="submit" style="background: rgb(56, 56, 56)" disabled>Unavailable</button></div>
                 </form>
             </div>
 
