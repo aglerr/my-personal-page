@@ -10,7 +10,7 @@
 
         <div class="row">
 
-            <div class="card text-center mx-auto" style="width: 18rem; background: #1f1e1e;">
+            <div class="card text-center mx-auto" style="width: 18rem; background: #031c26; box-shadow: 4px 13px 30px 1px #000;">
                 <img class="card-img-top" src="{{ asset('assets/img/dreamlight.png') }}" alt="Dream Light Logo"
                     style="width: 200px; height: 200px; display: block; margin: 0 auto;">
                 <div class="card-body">
