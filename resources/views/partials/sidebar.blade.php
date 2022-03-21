@@ -1,10 +1,6 @@
 <header id="header">
     <div class="d-flex flex-column">
 
-        <div class="profile">
-            <img src="assets/img/white-transparent.png">
-        </div>
-
         <nav id="navbar" class="nav-menu navbar">
             <ul>
                 <li>
