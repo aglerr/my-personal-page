@@ -43,53 +43,80 @@
 
 <body>
 
-    <div class="blog-slider">
-        <div class="blog-slider__wrp swiper-wrapper">
-            <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
+    <section id="portfolio-details" class="portfolio-details section-bg">
+        <div class="container">
 
-                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp"
-                        alt="">
-                </div>
-                <div class="blog-slider__content">
-                    <span class="blog-slider__code">26 December 2019</span>
-                    <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-                    <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-                        voluptate repellendus magni illo ea animi? </div>
-                    <a href="#" class="blog-slider__button">READ MORE</a>
-                </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp"
-                        alt="">
-                </div>
-                <div class="blog-slider__content">
-                    <span class="blog-slider__code">26 December 2019</span>
-                    <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
-                    <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-                        voluptate repellendus magni illo ea animi?</div>
-                    <a href="#" class="blog-slider__button">READ MORE</a>
-                </div>
+            <div class="section-title">
+                <h2><a href="/">Home</a> / <a href="/portfolio">Portfolio</a> / Player Cosmetics</h2>
             </div>
 
-            <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp"
-                        alt="">
+            <div class="row">
+
+                <div class="col-sm-6 col-lg-4 mb-3" style="width: 750px;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="false">
+                        {{-- <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div> --}}
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="width: 750px; height: 375px;">
+                                <video width="750" height="375" controls>
+                                    <source
+                                        src="{{ asset('assets/img/portfolio/player-cosmetics/video-preview.mp4') }}"
+                                        type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="carousel-item" style="width: 750px; height: 375px;">
+                                <video width="750" height="375" controls>
+                                    <source
+                                        src="{{ asset('assets/img/portfolio/player-cosmetics/video-colorable-cosmetics.mp4') }}"
+                                        type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="carousel-item" style="width: 750px; height: 375px;">
+                                <iframe class="d-block w-100" width="750" height="375"
+                                    src="https://www.youtube.com/embed/13_NjIFef9c?controls=1"
+                                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="blog-slider__content">
-                    <span class="blog-slider__code">26 December 2019</span>
-                    <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-                    <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-                        voluptate repellendus magni illo ea animi?</div>
-                    <a href="#" class="blog-slider__button">READ MORE</a>
+
+                <div class="col-sm-6 col-lg-4 mb-3">
+                    <div class="card mb-3 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Player Cosmetics</h5>
+                            <p class="card-text">A minecraft plugin that gives player an ability to wear a
+                                cosmetics. This plugin is inspired by a minecraft server called Origin Realms, and this
+                                plugin is for sale too on any minecraft plugin marketplace.</p>
+                            <a href="https://www.spigotmc.org/resources/95103/" target="_blank"
+                                class="btn btn-primary">Purchase the plugin</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Public Premium Plugin</small>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
         </div>
-        <div class="blog-slider__pagination"></div>
-    </div>
+    </section>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter.js"></script>
