@@ -18,7 +18,10 @@ Route::get('/', function () {
     return view('main');
 });
 
-// Portfolio Details
+// Portfolio
+Route::get('/portfolio', function () {
+    return view('portfolio.portfolio');
+});
 Route::get('/portfolio/{name}', [PortfolioController::class, 'index'])->name('portfolio');
 
 Route::get('/test', function () {
