@@ -8,11 +8,10 @@ class PortfolioController extends Controller{
     
     public function index($name){
 
-        if($name == "cosmetics"){
-            return view('partials.portfolio.cosmetics.details');
+        if($name == "player-cosmetics"){
+            return view('portfolio.playercosmetics');
         }
 
-        return redirect('/');
     }
 
 }
