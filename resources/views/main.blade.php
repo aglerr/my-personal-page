@@ -61,9 +61,9 @@
 
         {{-- Portfolio section --}}
         <a href="/portfolio">
-            <section id="portfolio-hero" class="portfolio-hero">
+            <div class="portfolio-hero">
                 <h1>Click to see my portfolio</h1>
-            </section>
+            </div>
         </a>
 
         @include('partials.footer')
