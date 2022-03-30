@@ -63,9 +63,11 @@
                             <a href="{{ route('portfolio', ['name' => 'player-cosmetics']) }}"
                                 class="btn btn-primary">More
                                 details</a>
+                                <a href="https://www.spigotmc.org/resources/95103/"
+                                    class="btn btn-primary" target="_blank">Purchase</a>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Minecraft Plugin Development</small>
+                            <small class="text-muted">Minecraft Plugin Development<br>Type: Public Premium Plugin</small>
                         </div>
                     </div>
                 </div>
